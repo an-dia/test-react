@@ -1,5 +1,8 @@
 .container {
+  width: 400px;
   padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -11,4 +14,12 @@
   width: 40px;
   height: 40px;
   margin: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 250ms linear;
+}
+
+.optionActive {
+  transform: scale(1.2);
 }
